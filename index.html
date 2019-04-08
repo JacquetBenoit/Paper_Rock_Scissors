@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u"
+        crossorigin="anonymous">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>    
+</head>
+
+<body>
+    <div class="container text-center">
+        <img id="paper" class="clickable" src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/paper--left.png" alt="paper" style="width:200px;">
+        <img id="rock" class="clickable" src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/rock--left.png" alt="rock" style="width:200px;">
+        <img id="scissors" class="clickable" src="https://www.bostonglobe.com/rw/Boston/2011-2020/WebGraphics/Metro/BostonGlobe.com/2018/05/rockpaperscissors/assets/scissors--left.png" alt="scissors" style="width:200px;">
+    </div>
+    <div class="container text-center">
+        <h1>User</h1>
+        <div id="userChoice" class="text-center"><h2><em>VS</em></h2></div>
+        <h1>Computer</h1>
+        <div id="computerChoice"></div>
+        <div id="win" class="alert alert-success">You win !</div>
+        <div id="loose" class="alert alert-danger">You loose...</div>
+        <div id="tied" class="alert alert-dark">Tied !</div>
+        <button id="replay" class="alert btn btn-outline-success">Try again ?</button>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
